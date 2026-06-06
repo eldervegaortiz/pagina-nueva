@@ -2,66 +2,82 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis Libros Favoritos</title>
-
- 
-    <link rel="stylesheet" href="styles.css">
+    <title>Pagina Estilo 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="contenedor">
-
-        <h1>Mis Libros Favoritos</h1>
-
-
-        <div class="libro">
-            <h2>Libro: Harry Potter y la Piedra Filosofal</h2>
-
-            <p><strong>Autor:</strong> J.K Rowling</p>
-            <p><strong>Género:</strong> Fantasía</p>
-
-            <div class="descripcion">
-                Este libro cuenta la historia de un joven mago llamado Harry Potter y sus aventuras en el Colegio Hogwarts de Magia y Hechicería. Es el primero de una serie de siete libros.
+    <nav class="navbar">
+        <div class="contenedor-nav">
+            <strong class="logo">elder vega</strong>
+            <div class="menu">
+                <a href="#">Inicio</a>
+                <a href="#">¿Quién soy?</a>
+                <a href="#">Proyectos</a>
             </div>
+            <div class="limpiar"></div>
         </div>
+    </nav>
 
-        <div class="libro">
-            <h2>Libro: El Principito</h2>
+    <section class="quien-soy">
+        <div class="contenedor-quien-soy">
+            <img src="https://picsum.photos/id/180/300/200" alt="Espacio de desarrollo" class="img-escritorio">
+            
+            <h2 class="titulo-rojo">¿Quién soy?</h2>
+            <p class="texto-descripcion">Soy un apasionado desarrollador de software enfocado en construir soluciones digitales eficientes y escalables. Dedico mi día a diseñar arquitecturas limpias, optimizar consultas de código y transformar ideas complejas en interfaces de usuario intuitivas que marquen la diferencia.</p>
+            <button class="btn-rojo">Leér más</button>
+            
+            <div class="limpiar"></div>
+        </div>
+    </section>
 
-            <p><strong>Autor:</strong> Antoine de Saint-Exupéry</p>
-            <p><strong>Género:</strong> Literatura infantil</p>
+    <section class="franja-roja">
+        <div class="contenedor-centrado">
+            <img src="https://i.pravatar.cc/150?img=57" class="avatar-circular" alt="Avatar">
+            <p class="texto-blanco">La programación no se trata únicamente de escribir líneas de código para computadoras, sino de estructurar el pensamiento lógico de manera creativa para resolver los retos reales de la sociedad actual.</p>
+            <small class="firma">- Pepito Perez</small>
+        </div>
+    </section>
 
-            <div class="descripcion">
-                El Principito es una historia sobre la amistad, el amor y la naturaleza humana, contada a través de las aventuras de un pequeño príncipe que viaja por diferentes planetas.
+    <section class="proyectos">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Mis proyectos</h2>
+            
+            <div class="tarjeta-proyecto">
+                <img src="https://picsum.photos/id/1/200/100" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Una plataforma integrada para optimizar el inventario en tiempo real, conectando flujos de backend estables con almacenamiento relacional masivo.</p>
+                <button class="btn-proyecto">Ver proyecto</button>
             </div>
-        </div>
 
-       
-        <div class="libro">
-            <h2>Libro: Cien Años de Soledad</h2>
-
-            <p><strong>Autor:</strong> Gabriel García Márquez</p>
-            <p><strong>Género:</strong> Realismo mágico</p>
-
-            <div class="descripcion">
-                Una de las obras más importantes de la literatura latinoamericana, que narra la historia de la familia Buendía en el pueblo ficticio de Macondo.
+            <div class="tarjeta-proyecto">
+                <img src="https://picsum.photos/id/60/200/100" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Diseño y normalización de una estructura relacional robusta orientada a transacciones seguras comerciales y reportes automatizados.</p>
+                <button class="btn-proyecto">Ver proyecto</button>
             </div>
+
+            <div class="tarjeta-proyecto">
+                <img src="https://picsum.photos/id/119/200/100" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+                <p>Aplicación de logística que calcula trayectos eficientes reduciendo tiempos de carga de datos mediante arquitecturas modulares.</p>
+                <button class="btn-proyecto">Ver proyecto</button>
+            </div>
+
+            <div class="tarjeta-proyecto">
+                <img src="https://picsum.photos/id/3"200/100" alt="Proyecto 4">
+                <h3>Proyecto 4</h3>
+                <p>Desarrollo de scripts optimizados para la migración e integridad de datos críticos sin interrupción de servicios activos en producción.</p>
+                <button class="btn-proyecto">Ver proyecto</button>
+            </div>
+
+            <div class="limpiar"></div>
         </div>
+    </section>
 
-        <div class="enlaces">
-            <h2>Enlaces para Leer Más</h2>
-
-            <p>Si quieres conocer más sobre estos libros, visita:</p>
-
-            <ul>
-                <li><a href="#">Harry Potter y la Piedra Filosofal</a></li>
-                <li><a href="#">El Principito</a></li>
-                <li><a href="#">Cien Años de Soledad</a></li>
-            </ul>
-        </div>
-
-    </div>
+    <footer class="pie-pagina">
+        <p>Copyright © 2018. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>
